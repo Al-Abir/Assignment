@@ -64,7 +64,7 @@ p{
     font-weight: 400;
 }
 
-
+/* ================Header Section start =================== */
 .header-wrapper .navbar .logo{
      height: 60px;
 }
@@ -88,5 +88,127 @@ p{
     display: inline-block;
 }
 
-/* card section start */
+/*=================== button section start==================== */
+
+.button-wrapper .btn-1{
+    background-color: red;
+    border: none;
+
+
+}
+
+.button-wrapper .btn-1:hover{
+    background-color: #6d6e5b;
+}
+
+
+.button-wrapper .btn-2{
+ 
+
+    border-radius: 50%;
+
+
+}
+
+.button-wrapper .btn-3{
+ 
+    border: none;
+    border-radius: 30px;
+
+
+}
+
+.button-wrapper .btn-3:hover{
+    background-color: wheat;
+    color: black;
+}
+
+.button-wrapper .btn-4{
+    border: 1px solid black !important;
+   
+}
+
+.button-wrapper .btn-4:hover{
+
+       background-color: #37418e;
+       color:red;
+   
+}
+
+
+
+.button-wrapper .btn-5{
+    display:inline-block;
+    border-radius: 26px;
+    transition: .2s;
+    padding: 10px 37px;
+    background-color: var(--secondary-color);
+    color:var(--text-white);
+    font-weight: 700;
+    font-family: var(--primary-font);
+    font-size:1rem;
+    text-decoration: none;
+    box-shadow: 0 0 1px rgb(0 0 0 /0%);
+    text-align: center;
+   
+}
+
+.button-wrapper .btn-5:hover{
+    background-color: var(--bg-blue);
+    color:var(--text-white);
+}
+.button-wrapper .btn-6{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+
+
+.button-wrapper .btn-7{
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-wrapper .btn-7:hover {
+    background-color: #fff;
+  }
+  
+
+  .button-wrapper .btn-8:hover{
+    background-color: #f77949;
+  }
+
+  .button-wrapper .btn-9{
+    border: 1px solid red;
+    border-radius: 15px 50px;
+  }
+
+  .button-wrapper .btn-9:hover{
+   
+    background-color: #f77949;
+    color: #1f1f1f;
+  }
+
+
+  .button-wrapper .btn-10:hover{
+    background-color: red;
+    border-radius: 40px;
+  }
+
+  /*==============From Group section Start ===============*/
+
 
