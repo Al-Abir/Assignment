@@ -209,6 +209,12 @@ p{
     border-radius: 40px;
   }
 
-  /*==============From Group section Start ===============*/
+  /*============== Progress Bar section Start ===============*/
+  .rogress_bar_wrapper .progress{
+       height: 35px;
+       border-radius: 50px;
+       box-shadow: 0 5px 5px black;
+
+  }
 
 
